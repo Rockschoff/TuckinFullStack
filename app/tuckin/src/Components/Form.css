@@ -1,0 +1,50 @@
+input[type="email"] {
+  width: 170px;
+  height: 30px;
+  background: #f5f3eb;
+  border: 1.5px solid #4f3343;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="number"] {
+  width: 247px;
+  height: 30px;
+  background: #f5f3eb;
+  border: 1.5px solid #4f3343;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.col-25 {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 40px;
+  
+}
+
+input[type="submit"] {
+  width: 98px;
+  height: 25px;
+  background-color: #4E505B;;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  border: none;
+  border-radius: 12.5px;
+  margin-top: 20px;
+  color: white;
+}

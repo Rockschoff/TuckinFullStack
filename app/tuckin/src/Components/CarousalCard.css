@@ -1,0 +1,146 @@
+/* .carousal-all {
+  border-bottom: 2px solid pink;
+} */
+
+.top {
+  /* background-color: white; */
+  /* border: 1px solid pink; */
+  width: 100%;
+  height: 170px;
+  position: relative;
+  top: 20px;
+}
+
+.top-text {
+  position: relative;
+  left: 5%;
+  /* margin-right: 40%; */
+  text-align: left;
+  /* border: 2px solid pink; */
+}
+
+.bottom-text {
+  position: relative;
+  left: 57%;
+  text-align: right;
+}
+
+.bottom {
+  /* background-color: white; */
+  height: 170px;
+  position: relative;
+  top: 20px;
+  margin-bottom: 40px;
+}
+
+.top-pic {
+  background-color: pink;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  position: relative;
+  bottom: 125px;
+  left: 100px;
+  width: 164px;
+  height: 166px;
+  border-radius: 0 0 0 100px;
+  border: 1px solid pink;
+  margin-right: 15px;
+}
+.top-text-heading {
+  position: relative;
+  left: 0%;
+  /* left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 68.03%; */
+
+  font-family: Cambay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
+  height: 39px;
+  width: 170px;
+  /* left: -10px; */
+  top: 0px;
+  border-radius: nullpx;
+
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.top-text-content {
+  font-family: Cambay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #000000;
+  height: 78px;
+  width: 128px;
+  left: 0px;
+  top: 44px;
+  border-radius: nullpx;
+}
+
+.bottom-text-heading {
+  position: relative;
+  /* left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 68.03%; */
+
+  font-family: Cambay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
+  height: 39px;
+  width: 143px;
+  left: 0px;
+  top: 0px;
+  border-radius: nullpx;
+
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.bottom-text-content {
+  font-family: Cambay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #000000;
+  height: 100px;
+  width: 128px;
+  /* left: 25px;
+  top: 44px; */
+  border-radius: nullpx;
+  position: relative;
+  right: -3%;
+  bottom: 10%;
+}
+
+.bottom-pic {
+  background-color: pink;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  position: relative;
+  bottom: 140px;
+  right: 25%;
+  width: 164px;
+  height: 166px;
+  border-radius: 0 100px 0 0;
+  border: 1px solid pink;
+}
+
+video {
+  width: 100px;
+}

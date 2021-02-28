@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Charmonman&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-style-type: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 25px;
+  align-items: center;
+  background: #f5f3eb;
+  /* position: -webkit-sticky; */
+  position: fixed;
+
+  width: 100%;
+  top: 0px;
+  border-bottom: 1px solid pink;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 804;
+  display: flex;
+  justify-content: center;
+  font-family: Charmonman;
+  color: black;
+  position: relative;
+  bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  tranform: translateX(0);
+}
+
+.nav-links .link {
+  cursor: pointer;
+  color: black;
+}
+
+li {
+  margin: 20px;
+  border-bottom: 1.5px solid pink;
+  padding-bottom: 10px;
+  
+  
+}
+
+.icon {
+  display: none;
+}
+
+.links:hover {
+  border-bottom: 1px solid black;
+}
+@media screen and (max-width: 750px) {
+  .nav-links {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 1000px;
+    width: 200px;
+    background-color: #f5f3eb;
+
+    transform: translateX(-500px);
+    transition: 500ms;
+    z-index: 2;
+  }
+
+  .nav-links li {
+    position: relative;
+    top: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #f5f3eb;
+  }
+
+  .nav-links li:hover {
+    border-bottom: 2px solid black;
+  }
+
+  .icon {
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 5%;
+    z-index: 5;
+  }
+}

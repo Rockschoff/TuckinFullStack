@@ -1,0 +1,42 @@
+.flexcard-heading {
+  width: 300px;
+  height: 39px;
+  font-family: Cambay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
+  /* identical to box height */
+
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: underline;
+
+  color: #4f3343;
+}
+
+.flexcard-content {
+  width: 293px;
+  height: 180px;
+  padding-top: 30px;
+  font-family: Cambay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  bottom: 40px;
+
+  color: #4f3343;
+}
+
+.flexcard-image {
+  width: 325px;
+  height: 292px;
+  /* position: relative;
+  top: 10px; */
+}

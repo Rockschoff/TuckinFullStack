@@ -1,0 +1,63 @@
+input[type="email"] {
+  width: 247px;
+  height: 30px;
+  background: #f5f3eb;
+  border: 1.5px solid #4f3343;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-right: 80px;
+}
+
+input[type="number"] {
+  width: 247px;
+  height: 30px;
+  background: #f5f3eb;
+  border: 1.5px solid #4f3343;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-right: 80px;
+}
+
+.order-container {
+  margin-top: 100px;
+}
+
+.order-heading {
+  width: 100%;
+  height: 39px;
+  font-family: Cambay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #4f3343;
+}
+.row {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.col-25 {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 40px;
+}
+
+input[type="submit"] {
+  width: 98px;
+  height: 25px;
+  background: rgba(51, 51, 51, 0.65);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 2px solid grey;
+  border-radius: 12.5px;
+  margin-top: 20px;
+  color: white;
+}

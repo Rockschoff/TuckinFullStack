@@ -1,0 +1,182 @@
+.hero-pic {
+  /* position: absolute;
+  left: 0px; */
+  width: 100%;
+  height: 471px;
+  z-index: -1;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hero-fade {
+  animation: fadeIn ease 2s;
+}
+
+.home {
+  background: #f5f3eb;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero {
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  height: 471px;
+}
+
+.hero-button {
+  position: relative;
+
+  top: -245px;
+  width: 221px;
+  height: 43px;
+
+  background: #4e505b;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 2px solid grey; */
+  border-radius: 21.5px;
+  color: #f5f3eb;
+  font-size: 16px;
+  border: none;
+}
+
+.shop-heading {
+  font-size: 20px;
+  font-weight: 500;
+  /* text-decoration: underline; */
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #4e505b;
+}
+
+.conclusion {
+  /* width: 400px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  /* background-color: white; */
+  height: 300px;
+}
+.conclusion-image {
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: 50px;
+}
+
+.conclusion-text {
+  font-family: Cambay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 73px;
+  text-align: center;
+  width: 338px;
+  height: 229px;
+  position: relative;
+  top: -700px;
+  /* left: 7%; */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  color: #fff;
+}
+
+.made-from {
+  font-family: Cambay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
+  text-align: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -150px;
+
+  color: #4f3343;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.see-more-button {
+  width: 321px;
+  height: 44px;
+  background: #4e505b;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  border: none;
+  border-radius: 37.5px;
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
+  margin-right: auto;
+  margin-left: auto;
+  color: #fff;
+  position: relative;
+  bottom: 350px;
+}
+.sign-up-prompt {
+  width: 100%;
+  height: 39px;
+  font-family: Cambay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* text-decoration: underline; */
+
+  /* identical to box height */
+
+  color: #4f3343;
+}
+.con {
+  position: relative;
+  top: 25px;
+}
+
+.hero-text-one {
+  position: relative;
+
+  top: -370px;
+  background-color: transparent;
+}
+
+.hero-text-two {
+  position: relative;
+  font-size: 20px;
+  font-weight: 400;
+  top: -350px;
+  background-color: transparent;
+  color: #4e505b;
+}
+
+.reviews-carousal {
+  position: relative;
+  bottom: 600px;
+}
+.reviews {
+  /* border : 3px solid red; */
+  z-index: 2;
+}
+
+.home-bottom {
+  position: relative;
+  bottom: 280px;
+}

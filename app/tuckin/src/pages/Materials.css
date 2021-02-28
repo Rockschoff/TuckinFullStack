@@ -1,0 +1,151 @@
+.material-button {
+  width: 136px;
+  height: 37px;
+  border-radius: 8px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid grey;
+  font-family: "Times Roman";
+}
+.material-button:hover {
+}
+
+.material-choices {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 65px;
+}
+
+.material-head {
+  width: 80%;
+  height: auto;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: Cambay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
+  text-align: center;
+  text-decoration: underline;
+
+  color: #000000;
+}
+
+.material-choices {
+  margin-bottom: 25px;
+}
+
+.material-des {
+  width: 80%;
+  height: auto;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: Cambay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  color: #000000;
+}
+
+.line {
+  width: 60%;
+  height: 0;
+  border: 0.5px solid grey;
+  background-color: grey;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.material-for-you {
+  width: 80%;
+  /* height: auto; */
+  height: 80px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2px;
+
+  font-family: Cambay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
+  padding-top: 25px;
+  padding-botton: 100px;
+  /* background-color: grey; */
+}
+.material-feats {
+  width: 80%;
+  /* height: auto; */
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  /* margin-top: 0; */
+
+  position: relative;
+  botton: 100px;
+}
+
+.feat-item {
+  width: 80%;
+  height: 40px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: Cambay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  /* margin-top: 50px; */
+  text-align: center;
+  margin-top: auto;
+  margin-botton: 30px;
+
+  color: #000000;
+}
+
+.material-pic {
+  width: 226px;
+  height: 400px;
+  background-color: white;
+  padding-bottom: 5px;
+  position: relative;
+  bottom: 25px;
+}
+.img-wrapper {
+  width: 80%;
+  height: 400px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  padding-top: 25px;
+}
+
+@keyframes fade{
+  0% {opacity : 0 ;  }
+  100% {opacity : 1 ;  }
+}
+
+.fade{
+animation : fadeRight ease 1s;
+
+}

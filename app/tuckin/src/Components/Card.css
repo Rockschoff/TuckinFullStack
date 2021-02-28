@@ -1,0 +1,111 @@
+.card {
+  margin-top: 50px;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+div {
+  background: #f5f3eb;
+  justify-content: center;
+}
+
+.card-img {
+  width: 295px;
+  height: 302px;
+}
+
+.card-name {
+  width: 295px;
+  /* border: 2px solid black; */
+  align-text: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: -50px;
+  color: #4f3343;
+}
+
+.card-prize {
+  width: 295px;
+  /* border: 2px solid black; */
+  align-item: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #4f3343;
+}
+
+.card-circles {
+  /* border: 2px solid black; */
+  width: 295px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  /* background-color: pink; */
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* border: 1px solid black; */
+}
+
+.circle-style {
+  border: 3px solid #656565;
+}
+
+.card-line {
+  height: 0px;
+  border: 1px solid grey;
+  width: 295px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.card-buy {
+  
+  display: block;
+  width: 100px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  /* text-decoration: underline; */
+  /* padding-bottom: 15px; */
+  border: none;
+  height: 30px;
+  text-align: center;
+  border-radius: 15px;
+  background: #4E505B;
+  color : white;
+}
+
+.card-buy:hover {
+  border: 1px solid grey;
+  border-radius: 15px;
+  background-color: #edebe1;
+}
+
+.white-circle {
+  background-color: white;
+}
+
+.sage-circle {
+  background-color: #598556;
+}
+
+.pink-circle {
+  background-color: pink;
+}
+
+.strip-circle {
+  background-color: lightblue;
+}
+
+.grey-circle {
+  background-color: gray;
+}

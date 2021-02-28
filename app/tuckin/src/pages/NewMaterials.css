@@ -1,0 +1,72 @@
+.nm-heading {
+  margin-top: 100px;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.nm-fade {
+  animation: fade 1s ease;
+}
+
+.nm-content {
+  width: 80%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+  position: relative;
+  bottom: 60px;
+}
+
+.nm-for-you {
+  font-size: 18px;
+}
+.nm-for-you-pics {
+  background-color: white;
+}
+.nm-for-you-icons {
+  background-color: transparent;
+  width: 30%;
+}
+
+.nm-for-you-points {
+  width: 70%;
+  position: relative;
+  top: 10px;
+}
+
+.nm-display-pic {
+  background-color: white;
+}
+
+.nm-pic {
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.nm-made-from {
+  font-family: Cambay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
+  text-align: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: #4f3343;
+}
